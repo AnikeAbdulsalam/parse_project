@@ -9,5 +9,9 @@
     height: 250px;
     width: 450px;
     padding: 10px;
-    margin-left: 270px;
+    margin-left: 130px;
+}
+
+button{
+   margin-left: 100px;
 }
