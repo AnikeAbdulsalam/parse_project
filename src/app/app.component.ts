@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'parse_project';
+
+
+  onSave(text: any) {
+    console.log(text)
+  }
+
+
 }

@@ -1,7 +1,7 @@
 <label for="text"></label>
-<input type="text" id="text" text="text" placeholder="write here">
+<input type="text" id="text" text="text" placeholder="write here" #text>
 
-<button type="button">PARSE</button>
+<button (click)="onSave(text.value)">PARSE</button>
 
 <label for="text"></label>
-<input type="text" id="textMirror" text="text" placeholder="write here">
+<input type="text" id="textMirror" text="text" placeholder="text will appear here">
