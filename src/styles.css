@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+#text {
+    height: 250px;
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#textMirror{
+    height: 250px;
+    width: 450px;
+    padding: 10px;
+    margin-left: 270px;
+}
