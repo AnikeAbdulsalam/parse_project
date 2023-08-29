@@ -6,14 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'parse_project';
 
-  onSave(text: String) {
-    if (text == '') {
+text = "";
+  onSave() {
+    if (this.text == '') {
       console.log('this field is empty') 
     }
     else {
-      console.log(text)
+      console.log(this.text)
     }
   }
 }
