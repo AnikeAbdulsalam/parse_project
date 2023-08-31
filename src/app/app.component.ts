@@ -7,13 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+text2: String = "";
 text = "";
-  onSave() {
-    if (this.text == '') {
-      console.log('this field is empty') 
-    }
-    else {
-      console.log(this.text)
-    }
+   onClick() {
+    this.text2 = this.text
   }
+
+
 }

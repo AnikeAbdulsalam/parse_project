@@ -1,11 +1,11 @@
-#text {
+#textbox1 {
     height: 250px;
     width: 450px;
     padding: 10px;
     margin: 10px;
 }
 
-#textMirror{
+#textbox2{
     height: 250px;
     width: 450px;
     padding: 10px;
