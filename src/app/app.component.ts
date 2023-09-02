@@ -1,3 +1,4 @@
+import { UpperCasePipe } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -9,7 +10,7 @@ export class AppComponent {
   text2: any = "";
   text = "";
     onClick() {
-      this.text2 = this.text
+      this.text2.UpperCasePipe(); = this.text
     }
 
 
