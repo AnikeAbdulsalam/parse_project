@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
 
-  text2: any = "";
+  text2: String = "";
   text = "";
     onClick() {
       this.text2 = this.text
