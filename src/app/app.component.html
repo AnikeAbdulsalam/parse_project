@@ -13,11 +13,9 @@
 
     <label for="textbox 2" ></label>
     <input 
-        type="text" 
+        type="{{text | uppercase}}" 
         id="textbox2" 
         text="text" 
         placeholder="your text will appear here" 
         [(ngModel)]="text2"> 
-    {{text2 | uppercase}}
-        
 </div>
