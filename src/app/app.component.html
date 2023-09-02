@@ -1,7 +1,22 @@
-<label for="textbox 1"></label>
-<input type="text" id="textbox1" text="text" placeholder="write here" [(ngModel)]="text">
+<div>
+    <label for="textbox 1"></label>
+    <input 
+        type="text" 
+        id="textbox1" 
+        text="text" 
+        placeholder="write here" 
+        [(ngModel)]="text">
 
-<button (click)="onClick()">PARSE</button>
+    <button (click)="onClick()">
+        PARSE
+    </button>
 
-<label for="textbox 2"></label>
-<input type="text" id="textbox2" text="text" placeholder="your text will appear here" [(ngModel)]="text2">
+    <label for="textbox 2" ></label>
+    <input 
+        type="text" 
+        id="textbox2" 
+        text="text" 
+        placeholder="your text will appear here" 
+        [(ngModel)]="text2 | uppercase"> 
+        
+</div>

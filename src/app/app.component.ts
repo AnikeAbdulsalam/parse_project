@@ -7,11 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-text2: String = "";
-text = "";
-   onClick() {
-    this.text2 = this.text
-  }
+
+  text2: any = "";
+  text = "";
+    onClick() {
+      this.text2 = this.text
+    }
+
 
 
 }
