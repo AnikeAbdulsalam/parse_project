@@ -10,9 +10,6 @@ export class AppComponent {
   text2: String = "";
   text = "";
     onClick() {
-      this.text2 = this.text
+      this.text2 = this.text.replaceAll(/a,e,i,o,u/gi, '/')
     }
-
-
-
 }
